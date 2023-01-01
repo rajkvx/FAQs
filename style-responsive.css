@@ -1,0 +1,12 @@
+@media(max-width:1200px){
+		body{
+			padding: 48px 30px;
+		}
+}
+
+
+@media(max-width:1000px){
+		.faqs_wrap{
+			width: 100%;
+		}
+}

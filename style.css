@@ -1,0 +1,113 @@
+	/* DEFAULT CSS (MIGHT NOT BE USABLE) */	
+		*{
+			box-sizing: border-box;
+			-webkit-box-sizing:border-box;
+			margin: 0;
+			padding: 0;
+			outline: 0;
+			font-size: 100%;
+		}
+		html, body{
+			min-height: 100%; 
+		}
+		body{
+			line-height: normal;
+			background: linear-gradient(to bottom right, deepskyblue, purple) no-repeat;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			padding: 100px 0;
+		}
+	/* DEFAULT CSS CLOSES */
+
+
+
+	/* -- FAQS CSS -- */
+		.faqs_wrap{
+			float: left;
+			width: 700px;
+			margin-block-start: 30px;
+			margin-block-end: 30px;
+		}
+		.faqsblock{
+			float: left;
+			width: 100%;
+		}
+		.faq{
+			float: left;
+			width: 100%;
+			background: #fff;
+			border-radius:52px;
+			-webkit-border-radius:52px;
+			overflow: hidden;
+			margin-bottom: 18px;
+		}
+		.faq:last-of-type{
+			margin-bottom: 0;
+		}
+		.faq .question{
+			padding: 30px 55px;
+			text-align:left;
+			color:#000;
+			font-size:15px;
+			font-family:'Montserrat';
+			font-weight: 600;
+			position: relative;
+			cursor: pointer;
+		    -webkit-user-select: none;
+		    user-select: none;
+		}
+		.faq .question .icons{
+			position: absolute;
+			width: 40px; height: 40px;
+			right: 20px; top: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		.faq .question .icons span{
+			text-align:left;
+			font-size:24px;
+			font-weight: bold;
+		}
+		.faq .question .icons span.iconshow{
+			color: #000;
+		}
+		.faq .question .icons span.iconhide{
+			color: red;
+			display: none;
+		}
+		.faq.active .question .icons span.iconhide{
+			display: block;
+		}
+		.faq.active .question .icons span.iconshow{
+			display: none;
+		}
+		.faq .answer{
+			padding: 5px 55px 20px 55px;
+			display: none;
+		}
+		.faq .answer p{
+			text-align:left;
+			color:#000;
+			font-size:14px;
+			font-family:'Montserrat';
+			margin: 0 0 25px 0;
+		}
+		.faq .answer p sup{
+			font-size: smaller;
+		}
+		.faq .answer ul,
+		.faq .answer ol{
+			padding: 0 0 0 18px;
+			margin-bottom: 25px;
+		}
+		.faq .answer li{
+			text-align:left;
+			color:#000;
+			font-size:14px;
+			font-family:'Montserrat';
+			margin: 0 0 5px 0;
+		}
+	/* -- FAQS CSS CLOSES -- */
